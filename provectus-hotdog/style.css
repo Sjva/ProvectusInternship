@@ -1,0 +1,216 @@
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(fonts/OpenSans.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: OpenSans-Semibold, Helvetica, sans-serif;
+}
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+}
+
+/*block header*/
+.header{
+    background:url(img/bg-header.jpg) repeat-x ;
+    height: 35.7em;
+    box-shadow: 0 80px 228px -40px #000000 inset;
+}
+.header-instagram img{
+    margin: 8% auto;
+    margin-left: 45%;
+    padding-right: 2%;
+}
+.header-instagram a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    margin: 0;
+    padding:3%;
+    margin-left: 3%;
+}
+.header-menu{
+    box-shadow: -1px 2px 15px -5px #000;
+}
+.header-menu li{
+    display: inline;
+    list-style-type: none;
+    margin-right: -1%;
+    padding: 4%;
+    font-size: 20px;
+    color:#2e2e2e;
+    text-decoration: none;
+}
+.header-menu li a {
+    text-decoration: none;
+    color:#2e2e2e;
+}
+.header-menu li a:hover {
+    color:#818184;
+}
+
+/*block slogan*/
+.slogan{
+    box-shadow: inset 0 6px 6px 0 rgba(119, 119, 119, 0.08);
+    background-color: #fbfafa;
+}
+.slogan-logo{
+  margin: 14% 0  5% 6%;
+}
+.slogan-text{
+    font-family: OpenSans-Light, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#818184;
+    text-align: center;
+    background-color: #fbfafa;
+}
+.slogan-btn{
+    font-family: OpenSans-Semibold, Helvetica, sans-serif;
+    background-color:#286782;
+    font-size: 20px;
+    color:white;
+    margin: 10%;
+    padding: 2% 3% 2% 3%;
+    border: none;
+    border-radius:6px;
+}
+.slogan-btn:hover{
+    background-color:#437e98;
+    color:#2e2e2e;
+}
+
+/*block content*/
+.content-img{
+    height: 100%;
+    width: 100%;
+}
+.content-text-all{
+    color:#555559;
+    padding-right:0;
+    padding-left:0;
+}
+.content-text-all h3  {
+    font-family: OpenSans-Bold, Helvetica, sans-serif;
+    margin:40% 20% 5% 13%;
+}
+.content-text-all p{
+    font-family: OpenSans-Light, Helvetica, sans-serif;
+    margin:0 20% 0 20%;
+    font-size: 18px;
+}
+.content-dash{
+   font-size: 28px;
+    color:#84959c;
+    margin-right: 3%;
+}
+
+/*block footer*/
+footer{
+    font-family: OpenSans-Semibold, Helvetica, sans-serif;
+    background-color: #efefef;
+    color:#5e5e62;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-text{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.footer-text a{
+    text-decoration: none;
+    color:#5e5e62;
+}
+.footer-text a:hover{
+    color:#84959c;
+}
+
+@media (max-width: 1199px) and (min-width: 320px) {
+
+    .content-text-all h3  {
+        text-align: center;
+        font-size: 20px;  }
+}
+@media (max-width: 992px) and (min-width: 320px) {
+
+    .header-instagram img{
+        margin-left: 30%;}
+
+    .content-text-all h3 {
+         margin-top: 20%; }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+
+    .header-instagram img {
+        margin: 5% auto;}
+    ul {
+        padding: 2%;
+        margin-left: 7%; }
+    .header-menu li {
+        padding: 2%;
+        font-size: 16px;}
+
+    .slogan-text{
+        font-size: 30px;}
+    .slogan-logo {
+        margin: 14% 0 5% 0; }
+    .slogan-btn {
+        font-size: 14px;}
+
+    .content-text-all h3 {
+        margin-top: 10%; }
+    .content-text-all p{
+        margin:0 18% 5% 18%;
+        font-size: 18px;  }
+}
+
+@media (max-width: 500px) and (min-width: 320px) {
+
+    .header-instagram img {
+        margin: 8% auto;
+        margin-left: 30%;
+        padding-right: 2%;  }
+    ul {
+        margin-left: 0; }
+    .header-menu li {
+        font-size: 14px;}
+    .header-instagram img{
+        margin-left: 0;}
+}
+
+@media (max-width: 400px) and (min-width: 320px) {
+    ul {
+        margin-left: -2%; }
+    .header-menu li {
+        font-size: 12px;}
+
+    .content-text-all h3  {
+        margin:5% 5% 2% 5%;
+        font-size: 20px;  }
+
+    .content-text-all p{
+        margin:0 5% 5% 18%;
+        font-size: 18px;  }
+}
+
